@@ -13,22 +13,40 @@ export default function GetSupportPage() {
         <div className="bg-gradient-brand text-white py-12">
           <div className="container">
             <div className="max-w-3xl">
-              <h1 className="text-4xl font-bold mb-4">Support Services for Somalis</h1>
+              <h1 className="text-4xl font-bold mb-4">
+                Support Services for Somalis
+              </h1>
               <p className="text-xl text-white/90 mb-6">
-                We provide a range of culturally sensitive support services designed specifically for the Somali
-                community, both in Somalia and abroad.
+                We provide a range of culturally sensitive support services
+                designed specifically for the Somali community, both in Somalia
+                and abroad.
               </p>
               <div className="flex flex-wrap gap-4">
                 <Button asChild size="lg" variant="secondary">
                   <a href="#helpline">Helpline</a>
                 </Button>
-                <Button asChild size="lg" variant="outline" className="text-white border-white hover:bg-white/10">
+                <Button
+                  asChild
+                  size="lg"
+                  variant="outline"
+                  className="text-white border-white hover:bg-white/10 bg-white/10"
+                >
                   <a href="#community-centers">Community Centers</a>
                 </Button>
-                <Button asChild size="lg" variant="outline" className="text-white border-white hover:bg-white/10">
+                <Button
+                  asChild
+                  size="lg"
+                  variant="outline"
+                  className="text-white border-white hover:bg-white/10 bg-white/10"
+                >
                   <a href="#somalia-programs">Somalia Programs</a>
                 </Button>
-                <Button asChild size="lg" variant="outline" className="text-white border-white hover:bg-white/10">
+                <Button
+                  asChild
+                  size="lg"
+                  variant="outline"
+                  className="text-white border-white hover:bg-white/10 bg-white/10"
+                >
                   <a href="#diaspora-support">Diaspora Support</a>
                 </Button>
               </div>
@@ -40,10 +58,13 @@ export default function GetSupportPage() {
           <div className="container">
             <div className="grid md:grid-cols-2 gap-12 items-center">
               <div>
-                <h2 className="text-3xl font-bold mb-4 text-primary">Somali Helpline</h2>
+                <h2 className="text-3xl font-bold mb-4 text-primary">
+                  Somali Helpline
+                </h2>
                 <p className="text-lg mb-6">
-                  Our helpline provides confidential support and advice in Somali, Arabic, and English. Our trained
-                  advisors can help with a wide range of issues faced by Somalis worldwide.
+                  Our helpline provides confidential support and advice in
+                  Somali, Arabic, and English. Our trained advisors can help
+                  with a wide range of issues faced by Somalis worldwide.
                 </p>
                 <div className="space-y-6">
                   <div className="flex items-start gap-4">
@@ -52,8 +73,12 @@ export default function GetSupportPage() {
                     </div>
                     <div>
                       <h3 className="font-bold text-xl mb-2">Call Us</h3>
-                      <p className="text-muted-foreground mb-1">International: +44 800 123 4567</p>
-                      <p className="text-muted-foreground mb-1">Somalia: 252 xxx xxx xxx</p>
+                      <p className="text-muted-foreground mb-1">
+                        International: +44 800 123 4567
+                      </p>
+                      <p className="text-muted-foreground mb-1">
+                        Somalia: 252 xxx xxx xxx
+                      </p>
                       <p className="text-muted-foreground">Available 24/7</p>
                     </div>
                   </div>
@@ -63,8 +88,12 @@ export default function GetSupportPage() {
                       <MessageCircle className="h-6 w-6 text-primary" />
                     </div>
                     <div>
-                      <h3 className="font-bold text-xl mb-2">WhatsApp Support</h3>
-                      <p className="text-muted-foreground mb-1">+44 7xxx xxx xxx</p>
+                      <h3 className="font-bold text-xl mb-2">
+                        WhatsApp Support
+                      </h3>
+                      <p className="text-muted-foreground mb-1">
+                        +44 7xxx xxx xxx
+                      </p>
                       <p className="text-muted-foreground">Available 24/7</p>
                     </div>
                   </div>
@@ -89,10 +118,13 @@ export default function GetSupportPage() {
         <div id="community-centers" className="py-16 bg-muted/50">
           <div className="container">
             <div className="text-center mb-12">
-              <h2 className="text-3xl font-bold mb-4 text-primary">Community Centers</h2>
+              <h2 className="text-3xl font-bold mb-4 text-primary">
+                Community Centers
+              </h2>
               <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-                Our community centers provide safe spaces for Somali individuals and families to access support, connect
-                with others, and participate in cultural activities.
+                Our community centers provide safe spaces for Somali individuals
+                and families to access support, connect with others, and
+                participate in cultural activities.
               </p>
             </div>
             <div className="grid md:grid-cols-3 gap-8">
@@ -105,11 +137,15 @@ export default function GetSupportPage() {
                   <div className="space-y-4">
                     <div className="flex items-start gap-2">
                       <MapPin className="h-5 w-5 text-primary shrink-0 mt-0.5" />
-                      <p className="text-muted-foreground">Wadajir District, Mogadishu, Somalia</p>
+                      <p className="text-muted-foreground">
+                        Wadajir District, Mogadishu, Somalia
+                      </p>
                     </div>
                     <div className="flex items-start gap-2">
                       <Calendar className="h-5 w-5 text-primary shrink-0 mt-0.5" />
-                      <p className="text-muted-foreground">Open daily, 8am - 6pm</p>
+                      <p className="text-muted-foreground">
+                        Open daily, 8am - 6pm
+                      </p>
                     </div>
                     <div className="border-t pt-4 mt-4">
                       <h4 className="font-bold mb-2">Services Available:</h4>
@@ -133,11 +169,15 @@ export default function GetSupportPage() {
                   <div className="space-y-4">
                     <div className="flex items-start gap-2">
                       <MapPin className="h-5 w-5 text-primary shrink-0 mt-0.5" />
-                      <p className="text-muted-foreground">Tower Hamlets, London, UK</p>
+                      <p className="text-muted-foreground">
+                        Tower Hamlets, London, UK
+                      </p>
                     </div>
                     <div className="flex items-start gap-2">
                       <Calendar className="h-5 w-5 text-primary shrink-0 mt-0.5" />
-                      <p className="text-muted-foreground">Monday - Saturday, 10am - 8pm</p>
+                      <p className="text-muted-foreground">
+                        Monday - Saturday, 10am - 8pm
+                      </p>
                     </div>
                     <div className="border-t pt-4 mt-4">
                       <h4 className="font-bold mb-2">Services Available:</h4>
@@ -161,11 +201,15 @@ export default function GetSupportPage() {
                   <div className="space-y-4">
                     <div className="flex items-start gap-2">
                       <MapPin className="h-5 w-5 text-primary shrink-0 mt-0.5" />
-                      <p className="text-muted-foreground">Eastleigh, Nairobi, Kenya</p>
+                      <p className="text-muted-foreground">
+                        Eastleigh, Nairobi, Kenya
+                      </p>
                     </div>
                     <div className="flex items-start gap-2">
                       <Calendar className="h-5 w-5 text-primary shrink-0 mt-0.5" />
-                      <p className="text-muted-foreground">Monday - Friday, 9am - 5pm</p>
+                      <p className="text-muted-foreground">
+                        Monday - Friday, 9am - 5pm
+                      </p>
                     </div>
                     <div className="border-t pt-4 mt-4">
                       <h4 className="font-bold mb-2">Services Available:</h4>
@@ -191,7 +235,9 @@ export default function GetSupportPage() {
 
         <div id="somalia-programs" className="py-16 bg-white">
           <div className="container">
-            <h2 className="text-3xl font-bold mb-8 text-primary">Programs in Somalia</h2>
+            <h2 className="text-3xl font-bold mb-8 text-primary">
+              Programs in Somalia
+            </h2>
             <div className="grid md:grid-cols-2 gap-8">
               <Card>
                 <CardHeader>
@@ -199,8 +245,9 @@ export default function GetSupportPage() {
                 </CardHeader>
                 <CardContent>
                   <p className="text-muted-foreground mb-4">
-                    We provide emergency food, water, and medical supplies to communities affected by drought, conflict,
-                    or other crises in Somalia.
+                    We provide emergency food, water, and medical supplies to
+                    communities affected by drought, conflict, or other crises
+                    in Somalia.
                   </p>
                   <Button asChild variant="outline">
                     <Link href="/programs/emergency-relief">Learn More</Link>
@@ -213,8 +260,9 @@ export default function GetSupportPage() {
                 </CardHeader>
                 <CardContent>
                   <p className="text-muted-foreground mb-4">
-                    Our programs support schools, provide scholarships, and offer vocational training to empower Somali
-                    youth with knowledge and skills.
+                    Our programs support schools, provide scholarships, and
+                    offer vocational training to empower Somali youth with
+                    knowledge and skills.
                   </p>
                   <Button asChild variant="outline">
                     <Link href="/programs/education">Learn More</Link>
@@ -227,8 +275,9 @@ export default function GetSupportPage() {
                 </CardHeader>
                 <CardContent>
                   <p className="text-muted-foreground mb-4">
-                    We run mobile clinics, support local hospitals, and provide essential medical supplies to improve
-                    healthcare access in Somalia.
+                    We run mobile clinics, support local hospitals, and provide
+                    essential medical supplies to improve healthcare access in
+                    Somalia.
                   </p>
                   <Button asChild variant="outline">
                     <Link href="/programs/healthcare">Learn More</Link>
@@ -241,8 +290,9 @@ export default function GetSupportPage() {
                 </CardHeader>
                 <CardContent>
                   <p className="text-muted-foreground mb-4">
-                    Our projects focus on agriculture, clean water, and renewable energy to build sustainable
-                    livelihoods in Somali communities.
+                    Our projects focus on agriculture, clean water, and
+                    renewable energy to build sustainable livelihoods in Somali
+                    communities.
                   </p>
                   <Button asChild variant="outline">
                     <Link href="/programs/development">Learn More</Link>
@@ -257,34 +307,49 @@ export default function GetSupportPage() {
           <div className="container">
             <div className="grid md:grid-cols-2 gap-12 items-center">
               <div className="order-2 md:order-1">
-                <h2 className="text-3xl font-bold mb-4 text-primary">Diaspora Support</h2>
+                <h2 className="text-3xl font-bold mb-4 text-primary">
+                  Diaspora Support
+                </h2>
                 <p className="text-lg mb-6">
-                  We provide comprehensive support to Somali diaspora communities, helping them integrate while
-                  maintaining their cultural identity.
+                  We provide comprehensive support to Somali diaspora
+                  communities, helping them integrate while maintaining their
+                  cultural identity.
                 </p>
                 <div className="space-y-4">
                   <div className="border-l-4 border-primary pl-4">
-                    <h3 className="font-bold text-xl mb-1">Integration Assistance</h3>
+                    <h3 className="font-bold text-xl mb-1">
+                      Integration Assistance
+                    </h3>
                     <p className="text-muted-foreground">
-                      Support with housing, employment, and navigating local systems in new countries.
+                      Support with housing, employment, and navigating local
+                      systems in new countries.
                     </p>
                   </div>
                   <div className="border-l-4 border-primary pl-4">
-                    <h3 className="font-bold text-xl mb-1">Language & Education</h3>
+                    <h3 className="font-bold text-xl mb-1">
+                      Language & Education
+                    </h3>
                     <p className="text-muted-foreground">
-                      Language classes, homework clubs, and adult education programs.
+                      Language classes, homework clubs, and adult education
+                      programs.
                     </p>
                   </div>
                   <div className="border-l-4 border-primary pl-4">
-                    <h3 className="font-bold text-xl mb-1">Cultural Preservation</h3>
+                    <h3 className="font-bold text-xl mb-1">
+                      Cultural Preservation
+                    </h3>
                     <p className="text-muted-foreground">
-                      Somali language classes, cultural events, and community gatherings.
+                      Somali language classes, cultural events, and community
+                      gatherings.
                     </p>
                   </div>
                   <div className="border-l-4 border-primary pl-4">
-                    <h3 className="font-bold text-xl mb-1">Mental Health Support</h3>
+                    <h3 className="font-bold text-xl mb-1">
+                      Mental Health Support
+                    </h3>
                     <p className="text-muted-foreground">
-                      Culturally sensitive counseling and support groups for Somali immigrants and refugees.
+                      Culturally sensitive counseling and support groups for
+                      Somali immigrants and refugees.
                     </p>
                   </div>
                 </div>
@@ -307,6 +372,6 @@ export default function GetSupportPage() {
       </main>
       <SiteFooter />
     </div>
-  )
+  );
 }
 
