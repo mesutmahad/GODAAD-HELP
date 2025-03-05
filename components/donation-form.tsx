@@ -50,7 +50,7 @@ export function DonationForm() {
                   variant={amount === preset ? "default" : "outline"}
                   onClick={() => setAmount(preset)}
                 >
-                  £{preset}
+                  ${preset}
                 </Button>
               ))}
             </div>

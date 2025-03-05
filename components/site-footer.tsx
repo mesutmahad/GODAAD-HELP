@@ -93,7 +93,7 @@ export function SiteFooter() {
             <address className="not-italic text-white/90">
               <p>GODAAD HELP</p>
               <p>123 Community Street</p>
-              <p>London, UK</p>
+              <p>Somali, Mogadishu</p>
               <p>EC1A 1BB</p>
               <p className="mt-2">0800 123 4567</p>
               <p>info@godaadhelp.org</p>

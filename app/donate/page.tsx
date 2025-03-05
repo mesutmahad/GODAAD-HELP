@@ -29,7 +29,7 @@ export default function DonatePage() {
               <div className="p-6 border rounded-lg">
                 <h3 className="font-bold mb-2">By Post</h3>
                 <p className="text-muted-foreground">
-                  Send a check to: Somali Relief Foundation, 123 Community Street, London, EC1A 1BB.
+                  Send a check to: Somali Relief Foundation, 123 Community Street, Somalia, EC1A 1BB.
                 </p>
               </div>
               <div className="p-6 border rounded-lg">
